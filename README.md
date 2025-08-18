@@ -1,4 +1,4 @@
-Health & Anthropometric Measurements (Python Script)
+Health & Anthropometric Measurements (Script)
 This is a script written in Python that calculates basic anthropometric measurements and allows a simple monitoring of health using only a MEASURING TAPE(cm) and a SCALE(kg)
 
 Actual Functions
