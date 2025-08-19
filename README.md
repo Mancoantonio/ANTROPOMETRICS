@@ -69,7 +69,8 @@ While Body Mass Index (BMI) is widely used, it has a major limitation:
 - **Limitation:** Still struggles with athletic populations.  
 
 ## CSV file generation with relevant information
-_**This stores name, height, weight, waist perimeter, hip perimeter, BMI, WHtR and WHR)
+-**This stores name, height, weight, waist perimeter, hip perimeter, BMI, WHtR and WHR)
+-**Stores also TIMESTAMP of consultation, format of date dd.mm.yyy
 
  **Intended for:** individuals with normal daily habits, especially those at risk of overweight or obesity.  
 
