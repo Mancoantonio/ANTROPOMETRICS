@@ -1,3 +1,5 @@
++++ INGLÉS
+
 Health & Anthropometric Measurements (Script)
 This is a script written in Python that calculates basic anthropometric measurements and allows a simple monitoring of health using only a MEASURING TAPE(cm) and a SCALE(kg)
 
@@ -103,9 +105,109 @@ By combining multiple indices, the script offers a more **holistic view of body 
 
 ---
 
++++ ESPAÑOL
+
+Medidas Antropométricas y Salud (Script)
+Este es un script escrito en Python que calcula medidas antropométricas básicas y permite un monitoreo simple de la salud utilizando únicamente una huincha métrica (cm) y una balanza (kg).
+⚙️ Funciones Actuales
+- IMC (Índice de Masa Corporal)
+- Convierte automáticamente kilogramos y centímetros.
+- Devuelve la clasificación exacta según la OMS (Organización Mundial de la Salud).
+- RCC (Relación Cintura-Cadera)
+- Requiere el dato de sexo.
+- Devuelve el nivel de riesgo según tablas internacionales.
+- RCA (Relación Cintura-Altura)
+- No requiere el dato de sexo.
+- Clasifica automáticamente el riesgo de salud.
+
+🛣️ Próximas Actualizaciones (ROADMAP)
+- Índice de Conicidad (CI)
+Fórmula: CINTURA / (1.109 × √(PESO / ALTURA))
+- Índice V-Taper
+Métrica estética y funcional basada en proporciones corporales.
+- Interfaz gráfica (posible GUI o versión web)
+- Índice CUN/BAE para calcular el porcentaje de grasa corporal
+Requiere el dato de edad.
+
+🧰 Requisitos
+- Python 3 o superior (para ejecutar el código)
+- Windows 10 u 11 (para usar el archivo .exe)
+- Huincha métrica
+- Balanza
+
+🚀 Uso
+- Ejecuta el archivo .exe
+o clona el repositorio desde GitHub, accede al directorio del proyecto y ejecuta el archivo imc.py:
+git clone https://github.com/mancoantonio/antromopetrics.git
+cd antropometrics
+python calculantropometrics.py
+
+
+- Ingresa los siguientes datos:
+- Peso (kg)
+- Altura (m)
+- Perímetro de cintura (cm)
+- Perímetro de cadera (cm)
+- Sexo (M/F)
+
+📋 Ejemplo de salida
+- Tu IMC es 24.3 → Clasificación: Normal (OMS)
+- Tu RCC es 0.82 → Clasificación: Riesgo de sobrepeso según tablas femeninas
+- Tu RCA es 0.47 → Clasificación: Saludable
+
+⚠️ IMPORTANTE - DESCARGO DE RESPONSABILIDAD
+Este script es únicamente educativo e informativo.
+No reemplaza una evaluación médica ni un diagnóstico profesional.
+
+📘 Actualización README 1.1
+Esta herramienta refina el alcance y contexto del script antropométrico.
+Está diseñada principalmente para poblaciones adultas sedentarias, ya que infantes y atletas suelen tener composiciones corporales únicas que escapan a los rangos estándar.
+
+❓ ¿Por qué el IMC no es suficiente?
+Aunque el IMC es ampliamente utilizado, tiene una gran limitación:
+No distingue entre masa muscular y masa grasa.
+Una persona muy musculosa puede ser clasificada como “obesa” según el IMC, a pesar de tener poca grasa corporal.
+
+🧠 Introducción al Índice CUN BAE
+- Desarrollado en 2012 por José María Gómez-Ambrosi et al. (Universidad Clínica de Navarra, España).
+- Propósito: Estimar el porcentaje de grasa corporal con mayor precisión que el IMC.
+- Limitación: También presenta dificultades con poblaciones atléticas.
+
+🗂️ Generación de archivo CSV
+- Guarda: nombre, altura, peso, perímetro de cintura, perímetro de cadera, IMC, RCA y RCC.
+- También guarda la fecha y hora de la consulta en formato dd.mm.yyyy.
+
+🎯 Público objetivo
+Individuos con hábitos diarios normales, especialmente aquellos en riesgo de sobrepeso u obesidad.
+Se considera que factores étnicos y culturales influyen en la composición corporal y el metabolismo, lo cual ni el IMC ni el CUN BAE capturan completamente.
+
+🎯 Propósito y Audiencia
+A pesar de sus limitaciones, esta herramienta cumple una función secundaria:
+Monitorear el progreso y los cambios en la antropometría a lo largo del tiempo.
+Al combinar múltiples índices, el script ofrece una visión más completa de la composición corporal, especialmente útil para personas no atléticas.
+
+👥 Audiencia objetivo
+- Usuarios latinoamericanos
+- Interfaz en español
+📏 Unidades utilizadas
+- Altura → metros (m)
+- Perímetros → centímetros (cm)
+- Peso → kilogramos (kg)
+
+🔮 Próximas funciones
+- Versión en inglés
+- Soporte para unidades imperiales
+- Interfaz visual (GUI o web)
+- Generación de archivo .txt para seguimiento de progreso
+
+
+
 ##  Quick Start
 ```bash
 git clone https://github.com/mancoantonio/antromopetrics.git
 cd antropometrics
 python calculantropometrics.py
+
+
+
 
