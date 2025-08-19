@@ -45,3 +45,66 @@ Use:
 IMPORTANT - DISCLAIMER
 
 This script is ONLY educational and informative. In no way replaces medical evaluation or further professional diagnosis.
+
+
+
+**README Update 1.1**
+
+This tool refines the scope and context of our anthropometric script.  
+It is designed primarily for **adult sedentary populations**, since infants and athletes often have unique body compositions that fall outside standard ranges.
+
+---
+
+##  Why BMI Alone Isn’t Enough
+While Body Mass Index (BMI) is widely used, it has a major limitation:  
+
+- BMI does **not distinguish** between fat mass and muscle mass.  
+- A highly muscular individual may be classified as “obese” by BMI standards, despite having low body fat.  
+
+---
+
+##  Introducing the CUN BAE Index
+- **Developed:** 2012, José María Gómez-Ambrosi et al. (Navarra Clinical University, Spain).  
+- **Purpose:** Estimates body fat percentage more accurately than BMI.  
+- **Limitation:** Still struggles with athletic populations.  
+
+## CSV file generation with relevant information
+_**This stores name, height, weight, waist perimeter, hip perimeter, BMI, WHtR and WHR)
+
+ **Intended for:** individuals with normal daily habits, especially those at risk of overweight or obesity.  
+
+> Note: Ethnic and cultural factors influence body composition and metabolism, which both BMI and CUN BAE do not fully capture.
+
+---
+
+## Purpose & Audience
+Even with its limitations, this tool serves a **secondary purpose**:  
+tracking progress and changes in anthropometry over time.  
+
+By combining multiple indices, the script offers a more **holistic view of body composition**—especially useful for **non-athletic users**.
+
+**Target Audience:**  
+- Latin American users  
+- Spanish-speaking interface  
+
+**Units used:**  
+- Height → meters (m)  
+- Perimeters → centimeters (cm)  
+- Weight → kilograms (kg)  
+
+---
+
+## Upcoming Features
+-  English version  
+-  Imperial unit support  
+-  Visual Interface (GUI or web-based)  
+-  TXT file generation for progress tracking 
+
+---
+
+##  Quick Start
+```bash
+git clone https://github.com/mancoantonio/antromopetrics.git
+cd antropometrics
+python calculantropometrics.py
+
