@@ -137,8 +137,8 @@ Requiere el dato de edad.
 
 🚀 Uso
 - Ejecuta el archivo .exe
-o clona el repositorio desde GitHub, accede al directorio del proyecto y ejecuta el archivo imc.py:
-git clone https://github.com/mancoantonio/antromopetrics.git
+o clona el repositorio desde GitHub, accede al directorio del proyecto y ejecuta el archivo calculantropometrics.py:
+git clone https://github.com/mancoantonio/antropometrics.git
 cd antropometrics
 python calculantropometrics.py
 
